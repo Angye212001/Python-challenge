@@ -3,34 +3,37 @@ import csv
 
 csvpath = os.path.join("..", "resources", "budget_data.csv")
 
-with open(csvpath, "r") as file_handler:
+with open(csvpath,"r") as file_handler:
     lines = file_handler.read()
-        print(lines)
-        print(type(lines))
+    print(lines)
+    print(type(lines))
 
-Header
+# Header
 
 print("Financial Analysis")
+print("---------------------------")
     
 
-The total number of months included in the dataset
+# The total number of months included in the dataset
 
 Date = "months"
 len(Date)
 print(len(Date))
 
-The net total amount of profit or loss over the entire period
+# The net total amount of profit or loss over the entire period
 
 Total = "amount"
 for Total in range():
-print(Total)
+    print(Total)
 
-The changes in profit or loss over the entire period,and then the average of those changes
+#The changes in profit or loss over the entire period,and then the average of those changes
+Average = sum(Total)/len(Total)
+print(Average)
 
 
-The greatest increase in profits date and amount over the entire period
+# The greatest increase in profits date and amount over the entire period
 
-x = (>1860000)
-The greatest decrease in profits date and amount over the entire period
+x = (">1860000")
+# The greatest decrease in profits date and amount over the entire period
 
-y = (<-1820000)
+y = ("<-1820000")
